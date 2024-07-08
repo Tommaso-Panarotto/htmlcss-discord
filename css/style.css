@@ -27,6 +27,12 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 p {
     font-weight: 500;
     font-size: 20px;
@@ -105,7 +111,7 @@ button {
     margin-left: 20px;
 }
 
-
+/* Main */
 
 
 /* Utilities */
@@ -150,34 +156,34 @@ button {
 
 
 .image {
-    min-height: 500px;
-    background-color: aqua;
+    min-height: 400px;
+    width: 70%;
+    text-align: center;
+    padding: 20px 20px;
 }
 
 .description-image {
-    min-height: 500px;
-    background-color: pink;
+    min-height: 400px;
+    width: 30%;
     flex-grow: 1;
+    padding: 0 10px;
 }
 
 .grey {
-    background-color: lightslategray;
-}
-
-.function {
-    min-height: 600px;
+    background-color: rgb(247, 247, 247);
 }
 
 .down {
-    min-height: 700px;
+    min-height: 600px;
 }
 
-.green {
-    background-color: green;
+.function {
+    min-height: 500px;
+    text-align: center;
 }
 
 .pad {
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .connections {
@@ -190,6 +196,10 @@ button {
     background-color: lightcoral;
 }
 
-#navbar {
-    background-color: lightblue;
+.video {
+    min-width: 100%;
+}
+
+.restrict {
+    padding: 10px 130px;
 }
