@@ -1,0 +1,178 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generic */
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer {
+    background-color: rgb(43, 43, 44);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+/* Header*/
+.navbar {
+    background-color: #255EE9;
+    min-height: 70px;
+}
+
+.navbar>* {
+    padding: 10px 0;
+}
+
+.external-left {
+    width: 20%;
+    text-align: left;
+}
+
+.prime {
+    width: 60%;
+    text-align: center;
+
+}
+
+.prime * {
+    padding: 0 20px;
+}
+
+.external-right {
+    width: 20%;
+    text-align: right;
+}
+
+.device {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.download {
+    height: 650px;
+    padding: 75px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bt-nav {
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+
+
+/* Utilities */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.top {
+    min-height: 70px;
+}
+
+.multi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.social {
+    width: 30%;
+    background-color: blueviolet;
+}
+
+.internal {
+    width: calc(70%/4);
+    background-color: aquamarine;
+}
+
+
+.image {
+    min-height: 500px;
+    background-color: aqua;
+}
+
+.description-image {
+    min-height: 500px;
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.grey {
+    background-color: lightslategray;
+}
+
+.function {
+    min-height: 600px;
+}
+
+.down {
+    min-height: 700px;
+}
+
+.green {
+    background-color: green;
+}
+
+.pad {
+    padding-top: 50px;
+}
+
+.connections {
+    min-height: 500px;
+}
+
+.little {
+    min-height: 20px;
+    width: 40px;
+    background-color: lightcoral;
+}
+
+#navbar {
+    background-color: lightblue;
+}
