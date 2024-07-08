@@ -11,7 +11,9 @@ body {
 }
 
 footer {
+    color: white;
     background-color: #23272A;
+    padding: 30px;
 }
 
 a {
@@ -34,7 +36,12 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #6D83D1;
 }
 
 p {
@@ -53,6 +60,18 @@ button {
 
 i {
     padding-right: 10px;
+}
+
+span {
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
 }
 
 /* Header*/
@@ -177,6 +196,49 @@ i {
 }
 
 /*footer*/
+.f-links {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7289DA;
+}
+
+.social {
+    flex-basis: 30%;
+}
+
+.all-links {
+    flex-basis: 70%;
+}
+
+.f-nav {
+    display: flex;
+    height: 100%;
+}
+
+.f-nav .nav-col {
+    flex-basis: 25%;
+}
+
+.f-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.social h3 {
+    color: #7289DA;
+}
+
+.flag {
+    margin: 30px 0;
+    height: 20px;
+    line-height: 15px;
+    vertical-align: middle;
+}
 
 /* Utilities */
 
@@ -185,40 +247,9 @@ i {
     margin: 0 auto;
 }
 
-.border {
-    border: 2px dashed black;
-}
-
-.top {
-    min-height: 70px;
-}
-
 .multi {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.exit {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.social {
-    width: 30%;
-    background-color: blueviolet;
-}
-
-.internal {
-    width: calc(70%/4);
-    text-align: left;
-}
-
-.block {
-    display: block;
-    padding: 10px 0;
 }
