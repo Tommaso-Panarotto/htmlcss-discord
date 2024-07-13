@@ -145,9 +145,18 @@ li {
     padding: 100px 0;
 }
 
+.wave-white {
+    height: 150px;
+    background-image: url('../img/wave.svg');
+    background-color: white;
+    filter: opacity(0.03);
+
+}
+
 .wave {
     height: 150px;
     background-image: url('../img/wave.svg');
+    filter: invert(1);
 }
 
 .star {
